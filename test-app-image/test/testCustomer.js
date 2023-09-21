@@ -15,8 +15,8 @@ var result,
 
 describe("Test Customer", () => {
     const options = {
-        serviceURI: "https://172.31.91.211:8811/Sports",
-        catalogURI: "https://172.31.91.211s:8811/Sports/static/SportsService.json",
+        serviceURI: "https://ec2-44-202-34-171.compute-1.amazonaws.com:8811/Sports",
+        catalogURI: "https://ec2-44-202-34-171.compute-1.amazonaws.com:8811/Sports/static/SportsService.json",
         resourceName: "Customer",
         authenticationModel: "anonymous"
     };
